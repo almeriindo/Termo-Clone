@@ -1,0 +1,65 @@
+body {
+    background: rgb(22, 22, 22);
+    color: #FFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+hr {
+    margin-bottom: 22px;
+    margin-top: 22px;
+    width: 522px;
+}
+
+#tabela {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 420px;
+    margin: 0 auto;
+    width: 360px;
+}
+
+.quadrado {
+    background: rgb(50, 50, 50);
+    align-items: center;
+    border: 2px solid rgb(40, 40, 40);
+    display: flex;
+    font-size: 22px;
+    height: 64px;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 64px;
+}
+
+.errado {
+    background: rgb(122, 50, 50);
+    border-color: rgb(122, 40, 40);
+}
+
+.existe {
+    background: rgb(222, 222, 22);
+    border-color: rgb(189, 180, 22);
+}
+
+.certo {
+    background: rgb(0, 190, 0);
+    border-color: rgb(0, 22, 0);
+}
+
+#resposta {
+    font-size: 27px;
+    margin-top: 22px;
+    text-transform: uppercase;
+}
+
+.rodape {
+    font-size: 22px;
+}
