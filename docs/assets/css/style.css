@@ -61,5 +61,41 @@ hr {
 }
 
 .rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 22px;
+}
+
+.rodape a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.rodape a:visited {
+    color:#FFF;
+}
+.rodape a:hover {
+    background-color: #FFF;
+    color: rgb(22, 22, 22);
+    transition: ease 1s;
+}
+
+#github-icon {
+    width: 24px;
+    height: 24px;
+    margin: 10px 5px 10px 10px;
+}
+
+#meu-nome {
+    margin-right: 10px;
+}
+
+#github-icon path {
+    fill:#CCC;
+}
+
+#github-icon:hover path {
+    fill:#161616;
 }
